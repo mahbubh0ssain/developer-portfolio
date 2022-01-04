@@ -63,16 +63,15 @@ a {
   display: flex;
 }
 .experience {
-  background-color: blueviolet;
+  background-color: rgb(237, 236, 238);
   padding-top: 40px;
   padding-left: 40px;
+  box-shadow: 10px 10px 20px rgb(131, 130, 130);
 }
 .experience h2 span {
   font-size: 36px;
 }
-.container h2 {
-  text-align: center;
-}
+
 .head {
   text-align: center;
   font-size: 40px;
