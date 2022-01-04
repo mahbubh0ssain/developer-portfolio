@@ -58,15 +58,19 @@ a {
   background-image: url(./images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+  margin-bottom: 150px;
 }
 .expo {
   display: flex;
+  background-image: url(./images/exp-bg.png);
+  background-repeat: no-repeat;
 }
 .experience {
   background-color: rgb(237, 236, 238);
   padding-top: 40px;
   padding-left: 40px;
   box-shadow: 10px 10px 20px rgb(131, 130, 130);
+  border-radius: 5px;
 }
 .experience h2 span {
   font-size: 36px;
@@ -75,4 +79,14 @@ a {
 .head {
   text-align: center;
   font-size: 40px;
+}
+#devel {
+  border-image: linear-gradient(rgb(255, 0, 98) rgb(132, 0, 255));
+  border-image-slice: 1;
+  border-left: 5px solid;
+}
+#developer {
+  border-image-slice: 1;
+  border-left: 5px solid;
+  border-image: linear-gradient(rgb(255, 0, 255) rgb(13, 196, 13));
 }
